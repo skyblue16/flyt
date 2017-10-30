@@ -1,30 +1,259 @@
 /*
  * Estilos de tu proyecto
  */
-#logopin{
- 	width: 20px;
- 	height: 20px;
- 	position: absolute;
+body{
+    font-family: 'Montserrat', sans-serif;
 
  }
+#logopin{
+ 	width: 70px;
+    height: 50px;
+    position: relative;
+    /* bottom: 20px; */
+    top: 25px;
+    left: 30px;
+    -webkit-filter: brightness(3000%);
+
+}
+li{
+	list-style: none;
+}
+a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #fff;
+}
+#t{
+    padding-right: 20px;
+}
+.titulosderecha a:nth-child(4){
+    padding-left: 35px;
+    /* border: thistle; */
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px 25px;
+}
 header{
-	background-image: url("hero.gif");
-	background-size: cover;
-	width: 100%;
+	background-image: url(hero.gif);
+    background-size: cover;
+    width: 101.2%;
     height: 700px;
-    margin-top: -55px
+    margin-top: -220px;
+    /* margin-right: 50%; */
+    margin-left: -8px;
 }
  .titulosderecha{
- 	position: absolute;
- 	left: 30px;
+    position: relative;
+    left: 59%;
+    /* bottom: 20px; */
+    bottom: 20px;
+    
+    /* text-decoration: none; */
+    /* list-style: none; */
+    width: 28%;
+ }
+ form{
+ 	padding-left: 50px;
  }
  .turn{
  	position: relative;
-    left: 65%;
+    left: 59%;
     top: 30%;
     padding-left: 15px;
     /* margin-top: -55px; */
     background: white;
-    width: 500px;
-    height: 400px;
+    width: 538px;
+    height: 430px;
+
+}
+#turn{
+	color: #352384;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+#sing{
+	 color: #352384;
+}
+input{
+    width: 90%;
+    border-bottom: 1px solid #352384;
+    border-top: none;
+    border-color: 1px solid #352384;
+    border-right: none;
+    border-left: none;
+}
+#become{
+	background: #FF00BF;
+    /* border: none; */
+    /* padding-bottom: 25px; */
+    padding: 15px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    /* margin-bottom: 40px; */
+    position: relative;
+    /* bottom: 20px; */
+    top: 50px;
+}
+#up{
+    color: gray;
+    text-decoration: underline;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+h6{
+    padding-top: 70px;
+    color: gray;
+}
+.linear{
+	margin-top: 20%;
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 90%;
+}
+#ride{
+	padding-top: 4%;
+}
+#ride,#serious,#happy,.h4{
+	padding-left: 10%;
+	color: #fff;
+}
+.h4{
+    font-weight: normal;
+}
+#ride,#serious,#happy{
+	font-weight: 600;
+    font-size: 29px;
+}
+#phone{
+	position: relative;
+    left: 55%;
+    bottom: 500px;
+    width: 38%;
+
+}
+span{
+    display: block;
+}
+#serious,#happy{
+    padding-top: 4%;
+}
+#w{
+    font-size: 10px;
+}
+#ampli{
+    font-size: 30px;
+}
+#video{
+	position: relative;
+    left: 32.5%;
+    bottom: 175px;
+}
+#video2{
+    position: relative;
+    bottom: 179px;
+}
+.derecha{
+    position: relative;
+    left: 73%;
+    bottom: 95%;
+    width: 340px;
+}
+#video3{
+    position: relative;
+    bottom: 421px;
+    left: 32.5%;
+}
+.good{
+	position: relative;
+    bottom: 920px;
+
+}
+footer{
+	background: #333447;
+    position: relative;
+    right: 7.6px;
+    top: 2160px;
+    width: 1348px;
+    height: 500px;
+}
+.dere,.centro,.izquierda{
+	display: inline-block;
+	color: #fff;
+    padding-top: 45px;
+}
+.izquierda{
+    position: relative;
+    left: 35%;
+    line-height: 3;
+}
+.centro{
+    position: relative;
+    left: 24%;
+    line-height: 3;
+}
+.dere{
+    position: relative;
+    left: 9%;
+    line-height: 3;
+}
+#apple{
+    position: relative;
+    left: 50%;
+    bottom: 140px;
+}
+#play{
+    width: 135px;
+    height: 40px;
+    position: relative;
+    left: 39.7%;
+    bottom: 15%;
+    bottom: 55px;
+}
+#micro{
+	width: 135px;
+    height: 40px;
+    position: relative;
+    left: 29.5%;
+    top: 31px;
+}
+#iconos{
+ 
+}
+.icon-facebook{
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    top: 82px;
+    color: white;
+    width: 40px;
+}
+.icon-twitter{
+    font-size: 40px;
+    position: relative;
+    left: 55%;
+    top: 42px;
+    color: white;
+    width: 40px;
+}
+.icon-instagram-with-circle{
+	font-size: 44px;
+    position: relative;
+    left: 48%;
+    color: white;
+    width: 44px;
+
+}
+hr{
+	width: 60%;
+}
+p{
+	padding-left: 41%;
+    color: #fff;
+}
+.dere:hover{
+    color: #FF00BF;
+}
+a:hover{
+    color: #FF00BF;
 }
